@@ -36,6 +36,10 @@ html {
     max-width: 100vw;
     overflow-x: hidden;
 }
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}    
 body::selection {
     color: var(--lightColor);
     background-color: rgba(239, 65, 35, 0.8);
@@ -424,4 +428,5 @@ body::selection {
     .menu-bar {
         margin: auto 0;
     }
+
 }
